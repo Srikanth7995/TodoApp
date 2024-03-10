@@ -1,0 +1,41 @@
+* {
+  color: #ffff;
+}
+.App {
+  text-align: center;
+  background-color: #494878;
+  height: 100vh;
+}
+.input-text {
+  color: black;
+}
+.task-list {
+  max-width: 400px;
+  margin: 20px auto;
+}
+.add-button {
+  background-color: #2b2a87;
+  margin: 5px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2b2a87;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task input {
+  margin-right: 10px;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.input-container {
+  margin-top: 10px;
+}
